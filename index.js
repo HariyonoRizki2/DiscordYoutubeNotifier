@@ -9,7 +9,7 @@ const startAt = Date.now();
 const lastVideos = {};
 
 const client = new Discord.Client();
-client.login(config.token).catch(console.log);
+client.login('MTA1MDIzNTkwMDk2NzI2MDI2MQ.GFd7WS.jEOftLzhbSGFaEna8LmGYDtj0eqpNYfbTOHlAk').catch(console.log);
 
 client.on("ready", () => {
     console.log(`[!] Ready to listen ${config.youtubers.length} youtubers!`);
